@@ -1,0 +1,445 @@
+-- Version: 3.2
+
+
+
+-- Instances:
+
+
+
+local ScreenGui = Instance.new("ScreenGui")
+
+local ImageLabel = Instance.new("ImageLabel")
+
+local KillAll = Instance.new("TextButton")
+
+local BringAll = Instance.new("TextButton")
+
+local COOLGUI = Instance.new("TextButton")
+
+local Visualizer = Instance.new("TextButton")
+
+local Panthom = Instance.new("TextButton")
+
+local InfYeild = Instance.new("TextButton")
+
+local Proton = Instance.new("TextButton")
+
+local ChangeUser = Instance.new("TextButton")
+
+local Invis = Instance.new("TextButton")
+
+local BackDoor = Instance.new("TextButton")
+
+local GrabKnife = Instance.new("TextButton")
+
+
+
+--Properties:
+
+
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ScreenGui.ResetOnSpawn = fa
+
+
+
+ImageLabel.Parent = ScreenGui
+
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+ImageLabel.Position = UDim2.new(0.502131164, 0, 0.391094267, 0)
+
+ImageLabel.Size = UDim2.new(0, 443, 0, 223)
+
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12387063748"
+
+ImageLabel.ImageColor3 = Color3.fromRGB(130, 121, 167)
+
+ImageLabel.ImageTransparency = 0.210
+
+ImageLabel.Active = true
+
+ImageLabel.Draggable = true
+
+
+
+KillAll.Name = "Kill All"
+
+KillAll.Parent = ImageLabel
+
+KillAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+KillAll.BackgroundTransparency = 1.000
+
+KillAll.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+KillAll.Position = UDim2.new(0.022573363, 0, 0.0627802685, 0)
+
+KillAll.Size = UDim2.new(0, 61, 0, 50)
+
+KillAll.Font = Enum.Font.Unknown
+
+KillAll.Text = "Kill All"
+
+KillAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+KillAll.TextSize = 9.000
+
+KillAll.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+KillAll.TextWrapped = true
+
+KillAll.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))() 
+
+end)
+
+
+
+BringAll.Name = "Bring All"
+
+BringAll.Parent = ImageLabel
+
+BringAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+BringAll.BackgroundTransparency = 1.000
+
+BringAll.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+BringAll.Position = UDim2.new(0.022573363, 0, 0.385650218, 0)
+
+BringAll.Size = UDim2.new(0, 61, 0, 50)
+
+BringAll.Font = Enum.Font.Unknown
+
+BringAll.Text = "Bring All"
+
+BringAll.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+BringAll.TextSize = 9.000
+
+BringAll.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+BringAll.TextWrapped = true
+
+BringAll.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Kill%20All'))()
+
+end)
+
+
+
+COOLGUI.Name = "COOLGUI"
+
+COOLGUI.Parent = ImageLabel
+
+COOLGUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+COOLGUI.BackgroundTransparency = 1.000
+
+COOLGUI.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+COOLGUI.Position = UDim2.new(0, 0, 0.721973062, 0)
+
+COOLGUI.Size = UDim2.new(0, 61, 0, 50)
+
+COOLGUI.Font = Enum.Font.Unknown
+
+COOLGUI.Text = "COOLGUI"
+
+COOLGUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+COOLGUI.TextSize = 9.000
+
+COOLGUI.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+COOLGUI.TextWrapped = true
+
+COOLGUI.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/GuiHub/main/Gui",true))();
+
+end)
+
+
+
+
+
+Visualizer.Name = "Visualizer"
+
+Visualizer.Parent = ImageLabel
+
+Visualizer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Visualizer.BackgroundTransparency = 1.000
+
+Visualizer.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+Visualizer.Position = UDim2.new(0.577878118, 0, -5.96046448e-08, 0)
+
+Visualizer.Size = UDim2.new(0, 61, 0, 50)
+
+Visualizer.Font = Enum.Font.Unknown
+
+Visualizer.Text = "Visualizer"
+
+Visualizer.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Visualizer.TextSize = 9.000
+
+Visualizer.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Visualizer.TextWrapped = true
+
+Visualizer.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/HashHub/main/HashHub",true))();
+
+end)
+
+
+
+
+
+Panthom.Name = "Panthom"
+
+Panthom.Parent = ImageLabel
+
+Panthom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Panthom.BackgroundTransparency = 1.000
+
+Panthom.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+Panthom.Position = UDim2.new(0.417607129, 0, 0.0627803206, 0)
+
+Panthom.Size = UDim2.new(0, 61, 0, 50)
+
+Panthom.Font = Enum.Font.Unknown
+
+Panthom.Text = "Panthom"
+
+Panthom.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Panthom.TextSize = 9.000
+
+Panthom.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Panthom.TextWrapped = true
+
+Panthom.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet(('https://gist.githubusercontent.com/duular/7d972e6c3cf88e36b07dedf9a8858fa7/raw/1d4e83e5fc8d3d3f4f4766c4f1ab35040a49969e/gistfile1.txt'), true))()
+
+end)
+
+
+
+
+
+InfYeild.Name = "Inf Yeild"
+
+InfYeild.Parent = ImageLabel
+
+InfYeild.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+InfYeild.BackgroundTransparency = 1.000
+
+InfYeild.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+InfYeild.Position = UDim2.new(0.180586904, 0, 0.25560534, 0)
+
+InfYeild.Size = UDim2.new(0, 51, 0, 50)
+
+InfYeild.Font = Enum.Font.Unknown
+
+InfYeild.Text = "Inf Yeiild"
+
+InfYeild.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+InfYeild.TextSize = 9.000
+
+InfYeild.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+InfYeild.TextWrapped = true
+
+InfYeild.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+
+
+Proton.Name = "Proton"
+
+Proton.Parent = ImageLabel
+
+Proton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Proton.BackgroundTransparency = 1.000
+
+Proton.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+Proton.Position = UDim2.new(0.234762982, 0, 0, 0)
+
+Proton.Size = UDim2.new(0, 54, 0, 50)
+
+Proton.Font = Enum.Font.Unknown
+
+Proton.Text = "Proton"
+
+Proton.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Proton.TextSize = 9.000
+
+Proton.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Proton.TextWrapped = true
+
+Proton.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/DigitalityScripts/roblox-scripts/main/Proton%20Free",true))();
+
+end)
+
+
+
+
+
+ChangeUser.Name = "Change User"
+
+ChangeUser.Parent = ImageLabel
+
+ChangeUser.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+ChangeUser.BackgroundTransparency = 1.000
+
+ChangeUser.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+ChangeUser.Position = UDim2.new(0.690744936, 0, 0.721973062, 0)
+
+ChangeUser.Size = UDim2.new(0, 61, 0, 49)
+
+ChangeUser.Font = Enum.Font.Unknown
+
+ChangeUser.Text = "Change user"
+
+ChangeUser.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+ChangeUser.TextSize = 9.000
+
+ChangeUser.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+ChangeUser.TextWrapped = true
+
+ChangeUser.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/ikd/main/lol",true))();
+
+end)
+
+
+
+Invis.Name = "Invis"
+
+Invis.Parent = ImageLabel
+
+Invis.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+Invis.BackgroundTransparency = 1.000
+
+Invis.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+Invis.Position = UDim2.new(0.169300199, 0, 0.654708564, 0)
+
+Invis.Size = UDim2.new(0, 61, 0, 50)
+
+Invis.Font = Enum.Font.Unknown
+
+Invis.Text = "Invisible"
+
+Invis.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+Invis.TextSize = 9.000
+
+Invis.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+Invis.TextWrapped = true
+
+Invis.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/invisible/main/invisible%20hair",true))();
+
+end)
+
+
+
+BackDoor.Name = "BackDoor"
+
+BackDoor.Parent = ImageLabel
+
+BackDoor.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+BackDoor.BackgroundTransparency = 1.000
+
+BackDoor.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+BackDoor.Position = UDim2.new(0.343115151, 0, 0.609865427, 0)
+
+BackDoor.Size = UDim2.new(0, 61, 0, 50)
+
+BackDoor.Font = Enum.Font.Unknown
+
+BackDoor.Text = "BackDoor"
+
+BackDoor.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+BackDoor.TextSize = 9.000
+
+BackDoor.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+BackDoor.TextWrapped = true
+
+BackDoor.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/Backdoorer/main/Backdoor",true))();
+
+end)
+
+
+
+GrabKnife.Name = "GrabKnife"
+
+GrabKnife.Parent = ImageLabel
+
+GrabKnife.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+
+GrabKnife.BackgroundTransparency = 1.000
+
+GrabKnife.BorderColor3 = Color3.fromRGB(130, 203, 255)
+
+GrabKnife.Position = UDim2.new(0.507900715, 0, 0.654708564, 0)
+
+GrabKnife.Size = UDim2.new(0, 61, 0, 50)
+
+GrabKnife.Font = Enum.Font.Unknown
+
+GrabKnife.Text = "GrabKnide"
+
+GrabKnife.TextColor3 = Color3.fromRGB(255, 255, 255)
+
+GrabKnife.TextSize = 9.000
+
+GrabKnife.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+
+GrabKnife.TextWrapped = true
+
+GrabKnife.MouseButton1Down:connect(function()
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Akshunnd/grab-knife/main/LOLOLOL",true))();
+
+end) 
